@@ -1,0 +1,26 @@
+{
+  "name": "gql-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serverless offline start --printOutput"
+  },
+  "keywords": [],
+  "author": "kingkomg",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.36",
+    "serverless-offline": "^6.5.0"
+  },
+  "dependencies": {
+    "apollo-server-lambda": "^2.16.1",
+    "aws-lambda-graphql": "^1.0.0-alpha.15",
+    "gql": "^1.1.2",
+    "graphql-tools": "^6.0.18",
+    "jose": "^1.28.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "uuid": "^8.3.0"
+  }
+}
